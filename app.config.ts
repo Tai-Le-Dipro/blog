@@ -77,8 +77,8 @@ declare module '@nuxt/schema' {
 
 export default defineAppConfig({
   awesome: {
-    name: `Lê Vĩnh Tuyến - Blog's của tôi`,
-    description: `Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+    name: `Lê Thành Tài - Blog's của tôi`,
+    description: `Lê Thành Tài - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     project: {
       links: {
         github: 'https://github.com/levinhtuyen/myblog',
@@ -94,7 +94,7 @@ export default defineAppConfig({
         year: new Date().getFullYear(),
       },
       home: {
-        title: `Lê Vĩnh Tuyến - Blog's của tôi`,
+        title: `Lê Thành Tài - Blog's của tôi`,
         disableInfoReplaceIndexInHomePage: true,
         primaryActionButton: {
           title: 'Nuxt 3',

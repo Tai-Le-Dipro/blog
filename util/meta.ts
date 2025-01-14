@@ -3,13 +3,13 @@
 import { reactive, computed } from 'vue'
 export const useMetaSeoIndex = () => {
   const siteData = reactive({
-    title: 'Lê Vĩnh Tuyến - Portfolio developer',
+    title: 'Lê Thành Tài - Portfolio developer',
     description:
-      "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
-    content: "Lê Vĩnh Tuyến - Blog's của tôi",
-    ogTitle: 'Lê Vĩnh Tuyến - Portfolio developer',
+      "Lê Thành Tài - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+    content: "Lê Thành Tài - Blog's của tôi",
+    ogTitle: 'Lê Thành Tài - Portfolio developer',
     ogDescription:
-      "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+      "Lê Thành Tài - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
     ogImage: 'https://tuyenleblog.tech/logo.png',
     ogType: 'article',
     ogLink: 'https://tuyenleblog.tech/',
@@ -26,11 +26,11 @@ export const useMetaSeoIndex = () => {
       {
         name: 'description',
         content:
-          "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+          "Lê Thành Tài - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
       },
       {
         property: 'og:title',
-        content: "Lê Vĩnh Tuyến - Blog's của tôi",
+        content: "Lê Thành Tài - Blog's của tôi",
       },
       {
         property: 'og:url',
@@ -43,7 +43,7 @@ export const useMetaSeoIndex = () => {
       {
         property: 'og:description',
         content:
-          "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+          "Lê Thành Tài - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
       },
 
       {

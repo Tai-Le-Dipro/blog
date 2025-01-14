@@ -10,7 +10,7 @@ import type { Config as TailwindConfig } from 'tailwindcss'
 
 export default defineNuxtModule({
   meta: {
-    name: `Lê Vĩnh Tuyến - Blog's của tôi`,
+    name: `Lê Thành Tài - Blog's của tôi`,
   },
   async setup(_options, nuxt) {
     const resolver = createResolver(import.meta.url)

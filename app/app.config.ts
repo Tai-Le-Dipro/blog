@@ -2,7 +2,7 @@ import type { AppConfigInput } from 'nuxt/schema'
 
 export default defineAppConfig({
   awesome: {
-    name: `Lê Vĩnh Tuyến - Blog's của tôi`,
+    name: `Lê Thành Tài - Blog's của tôi`,
     description:
       'Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...',
     project: {
@@ -15,7 +15,7 @@ export default defineAppConfig({
         year: new Date().getFullYear(),
       },
       welcome: {
-        title: `Lê Vĩnh Tuyến - Blog's của tôi`,
+        title: `Lê Thành Tài - Blog's của tôi`,
         disableInfoReplaceIndexInWelcomePage: true,
       },
     },

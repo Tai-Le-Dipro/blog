@@ -2,7 +2,7 @@
 exports = {
   apps: [
     {
-      name: `Lê Vĩnh Tuyến - Blog's của tôi`,
+      name: `Lê Thành Tài - Blog's của tôi`,
       exec_mode: 'cluster',
       einstances: '1',
       script: '/var/www/tuyneleblog/app/.output/server/index.mjs',

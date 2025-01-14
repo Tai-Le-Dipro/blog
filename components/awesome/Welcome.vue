@@ -3,11 +3,11 @@ import { ref } from 'vue'
 
 const { current } = useAwesomeScreen()
 
-const phrases = [`I'm Lê Vĩnh Tuyến`, `I learn, I develop...`]
+const phrases = [`I'm Lê Thành Tài`, `I learn, I develop...`]
 const router = useRouter()
 const currentPhraseIndex = ref(0)
 const currentCharacterIndex = ref(0)
-const currentPhrase = ref<string>(`I'm Lê Vĩnh Tuyến`)
+const currentPhrase = ref<string>(`I'm Lê Thành Tài`)
 const isDeleting = ref(false)
 
 function loop() {
@@ -95,9 +95,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                   </span>
                 </span>
               </div>
-              <div
-                class="grid-cols-1 md:grid-cols-2 grid md:flex"
-              >
+              <div class="grid-cols-1 md:grid-cols-2 grid md:flex">
                 <div
                   class="lg:w-1/3 w-full text-base text-slate-600 md:text-xl pt-5 dark:text-slate-400 col-span-1"
                 >
@@ -132,8 +130,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           tag="a"
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
+                          alt="Lê Thành Tài - Blog's của tôi"
+                          name="Lê Thành Tài - Blog's của tôi"
                           rel="noopener noreferrer"
                           to="mailto:levinhtuyen210@gmail.com"
                           ><span class="sr-only">mail</span
@@ -156,8 +154,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
                           rel="noopener noreferrer"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
+                          alt="Lê Thành Tài - Blog's của tôi"
+                          name="Lê Thành Tài - Blog's của tôi"
                           to="https://github.com/levinhtuyen"
                           ><span class="sr-only">github</span
                           ><svg
@@ -176,8 +174,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           tag="a"
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           rel="noopener noreferrer"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
+                          alt="Lê Thành Tài - Blog's của tôi"
+                          name="Lê Thành Tài - Blog's của tôi"
                           to="#"
                           ><span class="sr-only">x</span
                           ><svg
@@ -196,8 +194,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           tag="a"
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           rel="noopener noreferrer"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
+                          alt="Lê Thành Tài - Blog's của tôi"
+                          name="Lê Thành Tài - Blog's của tôi"
                           to="#"
                           ><span class="sr-only">linkedin</span
                           ><svg
@@ -215,10 +213,10 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           tag="a"
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
+                          alt="Lê Thành Tài - Blog's của tôi"
+                          name="Lê Thành Tài - Blog's của tôi"
                           rel="noopener noreferrer"
-                          to="https://www.facebook.com/profile.php?id=100007906847424"
+                          to=""
                           ><span class="sr-only">facebook</span
                           ><svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -236,9 +234,9 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
                           rel="noopener noreferrer"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          to="https://www.youtube.com/@ngaodusonthuy3000"
+                          name="Lê Thành Tài - Blog's của tôi"
+                          alt="Lê Thành Tài - Blog's của tôi"
+                          to=""
                           ><span class="sr-only">youtube</span
                           ><svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -730,7 +728,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://www.typescriptlang.org/"
                     target="_blank"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
                     name="yypeScript"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -749,10 +747,10 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     aria-label="blog-cua-toi"
                     aria-current="page"
                     tag="a"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://nuxt.com/"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -773,8 +771,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://vuejs.org/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -795,8 +793,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://tailwindcss.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -817,8 +815,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -839,8 +837,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://www.atlassian.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -861,8 +859,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://quasar.dev/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -883,8 +881,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://github.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -905,8 +903,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://www.adobe.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -927,8 +925,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://www.postman.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -949,8 +947,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://firebase.google.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -971,8 +969,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://firebase.google.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1021,8 +1019,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1043,8 +1041,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://vuejs.org/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1065,8 +1063,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://www.w3schools.com/html/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1087,8 +1085,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://slack.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1110,8 +1108,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://about.gitlab.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1133,8 +1131,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://www.w3schools.com/css/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1155,8 +1153,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://git-scm.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Lê Thành Tài - Blog's của tôi"
+                    name="Lê Thành Tài - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -1314,8 +1312,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     My portfolio and blog
                   </h1>
                   <p class="leading-relaxed mb-3 line-clamp-3">
-                    Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào
-                    trong gió, để chút buồn gửi vào trong tim...
+                    Lê Thành Tài - Blog's của tôi - Để chút thương gửi vào trong
+                    gió, để chút buồn gửi vào trong tim...
                   </p>
                   <div class="flex items-center flex-wrap">
                     <button

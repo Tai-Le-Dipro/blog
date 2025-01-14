@@ -3,15 +3,15 @@ import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 // compiler micro
 definePageMeta({ layout: 'page' })
 useHead({
-  title: `Lê Vĩnh Tuyến - Blog's của tôi`,
+  title: `Lê Thành Tài - Blog's của tôi`,
   meta: [
     {
       name: 'description',
-      content: `Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+      content: `Lê Thành Tài - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     },
     {
       property: 'og:title',
-      content: `Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+      content: `Lê Thành Tài - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     },
     {
       property: 'og:url',
@@ -23,7 +23,7 @@ useHead({
     },
     {
       property: 'og:description',
-      content: `Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+      content: `Lê Thành Tài - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     },
     {
       property: 'og:image',
@@ -69,7 +69,7 @@ useHead({
         <template #default="{ list }">
           <div class="min-h-[calc(100vh+1rem)]">
             <div
-              class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16 "
+              class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16"
             >
               <article
                 v-for="article in list"
@@ -78,7 +78,7 @@ useHead({
               >
                 <AwesomeLink
                   :to="article._path"
-                  class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100  shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40"
+                  class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40"
                 >
                   <img
                     width="400"

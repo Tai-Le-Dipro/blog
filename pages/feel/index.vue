@@ -3,15 +3,15 @@ import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 // compiler micro
 definePageMeta({ layout: 'page' })
 useHead({
-  title: `Lê Vĩnh Tuyến - Chuyện của tôi`,
+  title: `Lê Thành Tài - Chuyện của tôi`,
   meta: [
     {
       name: 'description',
-      content: `Lê Vĩnh Tuyến - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+      content: `Lê Thành Tài - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     },
     {
       property: 'og:title',
-      content: `Lê Vĩnh Tuyến - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+      content: `Lê Thành Tài - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     },
     {
       property: 'og:url',
@@ -23,7 +23,7 @@ useHead({
     },
     {
       property: 'og:description',
-      content: `Lê Vĩnh Tuyến - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+      content: `Lê Thành Tài - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     },
     {
       property: 'og:image',
