@@ -2,8 +2,8 @@ name: deploy-client-pwa
 run-name: ${{ github.actor }} is deploying on development
 on:
   push:
-    tags:
-      - dev-app
+    branches:
+      - main
 env:
   AWS_REGION: 'ap-south-1'
   AWS_BUCKET_NAME: 's3://blog-nuxtjs'
