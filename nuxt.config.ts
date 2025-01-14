@@ -3,6 +3,12 @@ const { resolve } = createResolver(import.meta.url)
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
+  router: {
+    options: {
+      hashMode: true,
+    },
+  },
   app: {
     head: {
       htmlAttrs: {
@@ -43,7 +49,6 @@ export default defineNuxtConfig({
   //   strict: true,
   //   typeCheck: true,
   // },
-  ssr: true,
   // modules
   modules: [
     // chore

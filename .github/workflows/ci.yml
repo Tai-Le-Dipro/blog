@@ -4,7 +4,7 @@ on:
   push:
     branches: ['main']
 env:
-  AWS_REGION: 'ap-south-1'
+  AWS_REGION: 'ap-northeast-1'
   AWS_BUCKET_NAME: 's3://blog-nuxtjs'
   API_URL: '<dev-api-url>'
   BLZ_ENV: 'test'
@@ -47,7 +47,7 @@ jobs:
         run: yarn install
 
       - name: Build the software
-        run: yarn build
+        run: yarn generate
 
       - name: Copy files to the test website with the AWS CLI
-        run: aws s3 sync dist/ ${{ env.AWS_BUCKET_NAME }}
+        run: aws s3 sync .output/public s3://blog-nuxtjs

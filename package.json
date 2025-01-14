@@ -28,9 +28,9 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "nuxt build ./app",
-    "dev": "nuxt dev ./app --no-clear",
-    "generate": "nuxt generate ./app",
+    "build": "nuxt build",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
     "preview": "nuxt preview ./app",
     "clear": "npx nuxi cleanup",
     "start": "node app/.output/server/index.mjs",
